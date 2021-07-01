@@ -1,17 +1,17 @@
 <?php
     // Development connection
-    $host='127.0.0.1';
-    $db ='ekapa';
-    $user ='root';
-    $pass = '';
-    $charset ='utf8mb4';
+    // $host='127.0.0.1';
+    // $db ='ekapa';
+    // $user ='root';
+    // $pass = '';
+    // $charset ='utf8mb4';
 
     // Remote Connection
-    // $host='remotemysql.com';
-    // $db ='Oguh7B6vmh';
-    // $user ='Oguh7B6vmh';
-    // $pass = 'gY1vz81z8J';
-    // $charset ='utf8mb4';
+    $host='remotemysql.com';
+    $db ='Oguh7B6vmh';
+    $user ='Oguh7B6vmh';
+    $pass = 'gY1vz81z8J';
+    $charset ='utf8mb4';
 
     $dsn ="mysql:host=$host;dbname=$db;charset=$charset";
 
